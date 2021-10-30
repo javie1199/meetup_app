@@ -23,7 +23,11 @@ const DUMMY_DATA = [
 
 function AllMeetupsPages() {
   return (
-    <MeetupList meetups={DUMMY_DATA}/>
+    <div>
+      <h1>All Meetups</h1>
+      <MeetupList meetups={DUMMY_DATA}/>
+    </div>
+   
   )
 }
 
