@@ -4,7 +4,7 @@ import Card from "../ui/Card"
 import classes from './NewMeetupForm.module.css'
 
 
-function NewMeetupForm() {
+function NewMeetupForm(props) {
   const titleRef = useRef()
   const imageRef = useRef()
   const addressRef = useRef()
@@ -29,7 +29,7 @@ function NewMeetupForm() {
       description
     }
 
-    console.log(meetupData);
+    props.addNewMeetup(meetupData)
   }
 
   
