@@ -14,9 +14,10 @@ The application using React Library to show a list of meetups from Firebase data
 ## Features
 1. Connecting React Components
 2. Style Module Components
-3. React Hook ( useState, useRef, useEffect, createContext)
-4. Send info from parent components to child components and vice versa
-5. Fetch data with GET, POST
+3. React-dom-router
+4. React Hook ( useState, useRef, useEffect, createContext)
+5. Send info from parent components to child components and vice versa
+6. Fetch data with GET, POST
 
 
 ## Technologies
