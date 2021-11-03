@@ -26,7 +26,7 @@ The application using React Library to show a list of meetups from Firebase data
 3. React
 
 ## Live Demo
-... processing
+https://javie1199.github.io/
 
 ## Author
 Jon Tran 😊
